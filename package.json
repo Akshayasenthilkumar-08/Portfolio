@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
 
-  "homepage": "git remote add origin https://github.com/Akshayasenthilkumar-08/Portfolio.git",
+  "homepage": "https://akshayasenthilkumar-08.github.io/portfolio",
 
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
