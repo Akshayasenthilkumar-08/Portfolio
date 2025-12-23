@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/static/css/main.a3c696e2.css",
-    "main.js": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/static/js/main.5b1ef483.js",
-    "static/js/453.a7d99afe.chunk.js": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/static/js/453.a7d99afe.chunk.js",
-    "static/media/pic.png": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/static/media/pic.fad5c25e551fb0cf7024.png",
-    "index.html": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/index.html",
-    "main.a3c696e2.css.map": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/static/css/main.a3c696e2.css.map",
-    "main.5b1ef483.js.map": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/static/js/main.5b1ef483.js.map",
-    "453.a7d99afe.chunk.js.map": "/git%20remote%20add%20origin%20https://github.com/Akshayasenthilkumar-08/Portfolio.git/static/js/453.a7d99afe.chunk.js.map"
+    "main.css": "/portfolio/static/css/main.a3c696e2.css",
+    "main.js": "/portfolio/static/js/main.ba0809db.js",
+    "static/js/453.a7d99afe.chunk.js": "/portfolio/static/js/453.a7d99afe.chunk.js",
+    "static/media/pic.png": "/portfolio/static/media/pic.fad5c25e551fb0cf7024.png",
+    "index.html": "/portfolio/index.html",
+    "main.a3c696e2.css.map": "/portfolio/static/css/main.a3c696e2.css.map",
+    "main.ba0809db.js.map": "/portfolio/static/js/main.ba0809db.js.map",
+    "453.a7d99afe.chunk.js.map": "/portfolio/static/js/453.a7d99afe.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3c696e2.css",
-    "static/js/main.5b1ef483.js"
+    "static/js/main.ba0809db.js"
   ]
 }
