@@ -1,6 +1,10 @@
 import "./App.css";
 import BottomNav from "./BottomNav";
 import img from "./pic.png";
+import pic from './assests/craftp.jpg'
+import file from './assests/eternal.png'
+import file2 from './assests/Blood.png'
+
 
 
 function App() {
@@ -178,6 +182,49 @@ function App() {
   <div className="cards project-ui">
 
     {/* CARD 1 */}
+     <div className="card railway-card">
+  <div className="h3">
+ <h3>BLOOD BANK MANAGEMENT</h3>
+  </div>
+  <div className="imgs">
+    <img
+    src={file2}
+      alt="train"
+    />
+  </div>
+  <div className="railway-content">
+    <p>
+     Blood Bank System – A simple web app to view blood availability and manage donor and blood requests efficiently using Firebase.
+    </p>
+  </div>
+ <div className="railway-actions">
+  <a
+    href="https://akshayasenthilkumar-08.github.io/Blood-Bank/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="action-btn"
+  >
+    ▶
+  </a>
+
+  {/* Source Code */}
+  <a
+    href="https://github.com/Akshayasenthilkumar-08/Blood-Bank"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="action-btn"
+  >
+    {"</>"}
+  </a>
+</div>
+
+  <div className="railway-tech">
+    React<br/>
+    JavaScript<br/>
+    JS<br/>
+    Firebase<br/>
+  </div>
+</div>
  <div className="card railway-card">
   <div className="h3">
  <h3>RAILWAY TICKET BOOKING</h3>
@@ -281,7 +328,7 @@ input validation and modern UI.
   </div>
  <div className="railway-actions">
   <a
-    href="https://akshayasenthilkumar-08.github.io/Rail-Ticket-Booking/"
+    href="https://akshayasenthilkumar-08.github.io/Currency-Converter/"
     target="_blank"
     rel="noopener noreferrer"
     className="action-btn"
@@ -291,7 +338,7 @@ input validation and modern UI.
 
   {/* Source Code */}
   <a
-    href="https://github.com/Akshayasenthilkumar-08/Rail-Ticket-Booking"
+    href="https://github.com/Akshayasenthilkumar-08/Currency-Converter/settings/pages"
     target="_blank"
     rel="noopener noreferrer"
     className="action-btn"
@@ -302,6 +349,89 @@ input validation and modern UI.
 
   <div className="railway-tech">
     Javascript,Local storage <br />  API <br></br> Html
+  </div>
+</div>
+<div className="card railway-card">
+  <div className="h3">
+ <h3>CRAFTO PROJECT
+</h3>
+  </div>
+  <div className="imgs">
+    <img
+    src={pic}
+      alt="train"
+    />
+  </div>
+  <div className="railway-content">
+    <p>
+ Crafto Project is a responsive jewellery e-commerce website showcasing modern UI design, product listings, and user-friendly layout. Built to demonstrate front-end web development.
+    </p>
+  </div>
+ <div className="railway-actions">
+  <a
+
+      href="https://akshayasenthilkumar-08.github.io/Crafto-Project/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="action-btn"
+  >
+    ▶
+  </a>
+
+  {/* Source Code */}
+  <a
+      href="https://github.com/Akshayasenthilkumar-08/Crafto-Project"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="action-btn"
+  >
+    {"</>"}
+  </a>
+</div>
+
+  <div className="railway-tech">
+  HTML  <br></br> CSS
+  </div>
+</div>
+<div className="card railway-card">
+  <div className="h3">
+ <h3>ETERNAL PROJECT
+</h3>
+  </div>
+  <div className="imgs">
+    <img
+    src={file}
+      alt="train"
+    />
+  </div>
+  <div className="railway-content">
+    <p>
+Eternal Project is a clean, modern multi-section landing page showcasing services, portfolio items, and team information with a responsive layout.    </p>
+  </div>
+ <div className="railway-actions">
+  <a
+      href="https://akshayasenthilkumar-08.github.io/Eternal-Project/"
+   
+    target="_blank"
+    rel="noopener noreferrer"
+    className="action-btn"
+  >
+    ▶
+  </a>
+
+  {/* Source Code */}
+  <a
+ href="https://github.com/Akshayasenthilkumar-08/Eternal-Project"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="action-btn"
+  >
+    {"</>"}
+  </a>
+</div>
+
+  <div className="railway-tech">
+  HTML  <br></br> CSS
   </div>
 </div>
   </div>
@@ -365,7 +495,12 @@ input validation and modern UI.
   <div className="nebula-particle" style={{ "--x": 0.1, "--y": -0.7, "--delay": "0.4s" }} />
   <div className="nebula-particle" style={{ "--x": 0.6, "--y": 0.4, "--delay": "0.6s" }} />
 
-     <button class="buttons">Send</button>
+   <button className="send">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span> Send
+</button>
 </div>
 
 
